@@ -1,0 +1,26 @@
+body,#main{
+ height: 100%;
+ width: 100%;
+}
+#entry{
+    height:  400px;
+    width: 95%;
+    background-color: aquamarine;
+display: flex;
+gap: 50px;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+#post{
+    height: 30px;
+    width: 70px;
+
+}
+#inner{
+    height: 100px;
+    width: 500px;
+}
+#sub{
+    height: 30px ;
+    width: 80px;
+}

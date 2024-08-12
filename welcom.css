@@ -1,0 +1,32 @@
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: aqua;
+    animation-name: sliding;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    position: relative;
+}
+@keyframes sliding {
+    0%{
+         top: 20px;
+         left: 0px;
+    }
+    25%{
+        top: 20px;
+        left: 800px;
+    }
+    50%{
+        top: 80px;
+        left: 100%;
+
+    }
+    75%{
+        top: 80px;
+        left: 100%;
+    }
+    100%{
+        top: 20px;
+        left: 0px;
+    }
+}
